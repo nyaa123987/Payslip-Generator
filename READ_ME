@@ -1,0 +1,41 @@
+# Payslip Generator
+
+This script generates payslips for employees from an Excel file and sends them via email. It uses the `pandas` library to read the Excel file, `FPDF` to create PDF payslips, and `yagmail` to send emails.
+
+## Prerequisites
+
+Before running the script, ensure you have the following installed:
+
+- Python 3.x
+- Required Python packages:
+  - `pandas`
+  - `fpdf`
+  - `yagmail`
+  - `python-dotenv`
+
+You can install the required packages using pip:
+
+```bash
+pip install pandas fpdf yagmail python-dotenv
+
+
+EMAIL_USER=nyashazee07@gmail.com
+EMAIL_PASSWORD=dpev yieh jtzj jofr
+
+
+### Instructions for Use
+
+1. **Create the README File**: Copy the above content into a text editor and save it as `README.md` in the same directory as your Python script.
+2. **Modify as Needed**: Adjust any paths, email settings, or instructions specific to your setup.
+3. **Commit to GitHub**: If you're using Git, you can add this README file to your repository by running:
+   ```bash
+   git add README.md
+   git commit -m "Add README file"
+   git push origin main
+
+
+
+
+
+
+

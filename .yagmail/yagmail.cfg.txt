@@ -1,0 +1,3 @@
+[email]
+user = your_email@example.com
+password = your_password_or_app_password
